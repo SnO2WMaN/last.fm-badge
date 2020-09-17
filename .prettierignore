@@ -1,0 +1,7 @@
+# Outputs
+CHANGELOG.md
+
+# Test
+coverage/
+fixtures/
+__fixtures__/

@@ -1,0 +1,40 @@
+commit-msg:
+  commands:
+    commitlint:
+      run: commitlint --edit ./.git/COMMIT_EDITMSG
+
+pre-push:
+  parallel: true
+  commands:
+    packages-audit:
+      tags: frontend security
+      run: yarn audit
+
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      tags: frontend lint
+      files: git diff --name-only --staged
+      glob: '*.{js,ts}'
+      run: eslint {staged_files}
+    prettier:
+      tags: frontend lint
+      files: git diff --name-only --staged
+      glob: '*.{json,yml,yaml,md}'
+      run: prettier --check {staged_files}
+    prettier-rcfiles:
+      tags: frontend lint
+      files: git diff --name-only --staged
+      glob: '.{all-contributors,eslint,prettier,release,renovate,optipack}rc'
+      run: prettier --check {staged_files} --parser json
+    codecov:
+      tags: infra lint
+      files: git diff --name-only --staged
+      glob: 'codecov.yml'
+      run: cat codecov.yml | curl --data-binary @- https://codecov.io/validate
+    renovate:
+      tags: infra lint
+      files: git diff --name-only --staged
+      glob: '.renovaterc'
+      run: npx --package renovate -c 'renovate-config-validator'

@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Outputs
+lib/
+*.tsbuildinfo
+
+# Test
+coverage/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Environment
+.env*

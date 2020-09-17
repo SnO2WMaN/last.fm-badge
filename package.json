@@ -1,0 +1,31 @@
+{
+  "name": "last-fm-badge",
+  "private": true,
+  "scripts": {
+    "lint": "run-s -cn lint:*",
+    "lint:eslint": "eslint . --ext .js",
+    "lint:prettier": "prettier --check **/*.{json,yml,yaml,md}",
+    "fmt": "run-s -cn fmt:*",
+    "fmt:eslint": "yarn lint:eslint --fix",
+    "fmt:prettier": "yarn lint:prettier --write"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@arkweid/lefthook": "0.7.2",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/config-lerna-scopes": "11.0.0",
+    "@shopify/eslint-plugin": "38.0.0",
+    "@shopify/prettier-config": "1.1.1",
+    "eslint": "7.8.1",
+    "jest": "26.4.2",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.1.1",
+    "prettier-plugin-optipack": "^1.1.1",
+    "prettier-plugin-organize-imports": "1.1.1",
+    "ts-jest": "26.3.0",
+    "ts-node": "9.0.0",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "3.9.7"
+  }
+}
