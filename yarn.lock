@@ -4418,10 +4418,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-plugin-optipack@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-optipack/-/prettier-plugin-optipack-1.1.1.tgz#277d0631dfb60a123e25bb1f134f07bb84262ef3"
-  integrity sha512-3Gpj1ETDC1VoD6/H2UiOOJuEY4quM9sHv8iGAZpsrALB003lLcHiFkyUCIK3a+MZIHuqPYYD6SuUp+cEX3v3wQ==
+prettier-plugin-optipack@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-optipack/-/prettier-plugin-optipack-1.1.2.tgz#8b7baf5af249eb4704f5bc0ae1603af73e22af2c"
+  integrity sha512-p1yi6gqF/96MAeC2EQKDnnJzjkAZbY1pwRJOjYGff4fCDTQiKHEgskPrJnM4mlwG2d8IugRDsG4RhUjRIWtduw==
   dependencies:
     "@optipack/core" "^1.0.2"
     "@optipack/cosmiconfig" "^1.0.2"
