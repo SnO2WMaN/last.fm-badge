@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon",
+    "build": "tsc -b tsconfig.build.json",
     "lint": "run-s -cn lint:*",
     "lint:eslint": "eslint . --ext .js",
     "lint:prettier": "prettier --check **/*.{json,yml,yaml,md}",
