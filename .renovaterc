@@ -6,7 +6,7 @@
     ":dependencyDashboard",
     ":separateMultipleMajorReleases",
     ":semanticCommitType(chore)",
-    "schedule:weekly",
+    "schedule:monthly",
     "github>hatena/renovate-config:automergePin",
     "github>hatena/renovate-config:automergeTypesMinor"
   ],
