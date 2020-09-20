@@ -28,4 +28,4 @@ https://<your-vercel-app>.vercel.app/api?period=7day
 
 ## Housekeeping
 
-[![GitHub](https://img.shields.io/github/license/SnO2WMaN-HQ/last.fm-badge?style=for-the-badge)](https://github.com/SnO2WMaN-HQ/SnO2WMaN-HQ/last.fm-badge/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/SnO2WMaN-HQ/last.fm-badge?style=for-the-badge)](https://github.com/SnO2WMaN-HQ/last.fm-badge/blob/master/LICENSE)
