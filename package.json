@@ -2,14 +2,15 @@
   "name": "last-fm-badge",
   "private": true,
   "scripts": {
-    "dev": "nodemon",
-    "build": "tsc -b tsconfig.build.json",
     "lint": "run-s -cn lint:*",
     "lint:eslint": "eslint . --ext .js",
     "lint:prettier": "prettier --check **/*.{json,yml,yaml,md}",
     "fmt": "run-s -cn fmt:*",
     "fmt:eslint": "yarn lint:eslint --fix",
     "fmt:prettier": "yarn lint:prettier --write"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "dependencies": {
     "axios": "^0.20.0"
