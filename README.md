@@ -1,6 +1,6 @@
 # last.fm-badge
 
-[![badge](https://last-fm-badge.vercel.app/api)](https://www.last.fm/user/SnO2WMaN)
+[![badge](https://last-fm-badge.vercel.app/api?period=7day)](https://www.last.fm/user/SnO2WMaN)
 
 Fetch your history from [last.fm](https://www.last.fm/) API, and create SVG badge.
 
@@ -18,12 +18,12 @@ Due to the API restrictions of last.fm, you need to deploy to Vercel yourself.
 ### Query
 
 ```
-https://<your-vercel-app>.vercel.app/api?period=7day
+https://<your-vercel-app>.vercel.app/api?period=1month
 ```
 
 - period
   - `overall` | `7day` | `1month` | `3month` | `6month` | `12month`
-  - default: `7day`
+  - default: `1month`
   - https://www.last.fm/api/show/user.getTopArtists
 
 ## Housekeeping
