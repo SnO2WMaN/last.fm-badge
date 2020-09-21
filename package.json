@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "lint": "run-s -cn lint:*",
-    "lint:eslint": "eslint . --ext .js",
+    "lint:eslint": "eslint . --ext .js,ts",
     "lint:prettier": "prettier --check **/*.{json,yml,yaml,md}",
     "fmt": "run-s -cn fmt:*",
     "fmt:eslint": "yarn lint:eslint --fix",
