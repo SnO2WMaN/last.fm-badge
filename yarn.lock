@@ -987,7 +987,7 @@
     ts-node "8.9.1"
     typescript "3.9.3"
 
-"@vercel/node@^1.8.2":
+"@vercel/node@1.8.2":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@vercel/node/-/node-1.8.2.tgz#8334a5ed0286ef2dc3a650f1f9b8d2e346da62ba"
   integrity sha512-K4SPBQ/UTn9IfAFaMgdJFXCiU/8LsBWHztJPI4aUh24WgYf0pDGyaEDj/RZyiSjfGB+piE1cRUBvHe+mzVHyHQ==
@@ -1236,7 +1236,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.1.tgz#e1e82e4f3e999e2cfd61b161280d16a111f86428"
   integrity sha512-zg7Hz2k5lI8kb7U32998pRRFin7zJlkfezGJjUc2heaD4Pw2wObakCDVzkKztTm/Ln7eiVvYsjqak0Ed4LkMDA==
 
-axios@^0.20.0:
+axios@0.20.0:
   version "0.20.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
   integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
@@ -4663,7 +4663,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-plugin-optipack@^1.1.2:
+prettier-plugin-optipack@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prettier-plugin-optipack/-/prettier-plugin-optipack-1.1.2.tgz#8b7baf5af249eb4704f5bc0ae1603af73e22af2c"
   integrity sha512-p1yi6gqF/96MAeC2EQKDnnJzjkAZbY1pwRJOjYGff4fCDTQiKHEgskPrJnM4mlwG2d8IugRDsG4RhUjRIWtduw==
@@ -5906,7 +5906,7 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vercel@^20.1.0:
+vercel@20.1.0:
   version "20.1.0"
   resolved "https://registry.yarnpkg.com/vercel/-/vercel-20.1.0.tgz#366c39892455f5fff9b1d31db6e6ac1dff436453"
   integrity sha512-fOYq2X6o157hOBbyxU9VcM2pCHa6cAxvkA731N9FEw8MyMnPC7zJRgFQ/kYJ0oisjlKsmm2A1ryrLEz3KLIDFw==
