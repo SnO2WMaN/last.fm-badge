@@ -1,6 +1,6 @@
 # last.fm-badge
 
-[![badge](https://last-fm-badge.vercel.app/api?period=7day)](https://www.last.fm/user/SnO2WMaN)
+[![badge](https://last-fm-badge.sno2wman.vercel.app/api?period=7day)](https://www.last.fm/user/SnO2WMaN)
 
 Fetch your history from [last.fm](https://www.last.fm/) API, and create SVG badge.
 
