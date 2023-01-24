@@ -978,19 +978,25 @@
   resolved "https://registry.yarnpkg.com/@vercel/go/-/go-1.1.6.tgz#45ac3a6bd98a15b8bf1028b8c141a51fd971ac15"
   integrity sha512-swA2crS08fkPmw4UkR9yjmoL8FOCzuNHLFDqj8oM1V9ni610ibJ7Xk57jI8uyS7bTecQVh8VUxihb+SF0GT+aw==
 
+"@vercel/node-bridge@2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-2.2.2.tgz#f63466ab6a2588afdc6262c2d060289bfe8baa6b"
+  integrity sha512-haGBC8noyA5BfjCRXRH+VIkHCDVW5iD5UX24P2nOdilwUxI4qWsattS/co8QBGq64XsNLRAMdM5pQUE3zxkF9Q==
+
+"@vercel/node@1.15.4":
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-1.15.4.tgz#dd55b510492158873c773017ecd3d2bf75f67258"
+  integrity sha512-45fV7qVVw1cWCD6tWBXH0i4pSfYck4yF2qNKlJb1gmbO9JHWRqMYm0uxNWISD6E6Z69Pl1KDvfa+l48w/qEkaw==
+  dependencies:
+    "@types/node" "*"
+    "@vercel/node-bridge" "2.2.2"
+    ts-node "8.9.1"
+    typescript "4.3.4"
+
 "@vercel/node@1.8.1":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@vercel/node/-/node-1.8.1.tgz#aa0a04f425638874d19be64f7905018ef6f9b1c5"
   integrity sha512-vQsYMrulghMaHEKbqxJCQPfHrGEBmYmQMLYrx+m8kolKDq1LQDWFx2MRh4DyMnGfYSoYoW5PI2HP7NAfbEjzmg==
-  dependencies:
-    "@types/node" "*"
-    ts-node "8.9.1"
-    typescript "3.9.3"
-
-"@vercel/node@1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-1.8.2.tgz#8334a5ed0286ef2dc3a650f1f9b8d2e346da62ba"
-  integrity sha512-K4SPBQ/UTn9IfAFaMgdJFXCiU/8LsBWHztJPI4aUh24WgYf0pDGyaEDj/RZyiSjfGB+piE1cRUBvHe+mzVHyHQ==
   dependencies:
     "@types/node" "*"
     ts-node "8.9.1"
@@ -5781,6 +5787,11 @@ typescript@3.9.7:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
+
+typescript@4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.4.tgz#3f85b986945bcf31071decdd96cf8bfa65f9dcbc"
+  integrity sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==
 
 union-value@^1.0.0:
   version "1.0.1"

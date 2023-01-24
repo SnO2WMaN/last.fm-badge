@@ -21,7 +21,7 @@
     "@commitlint/config-conventional": "11.0.0",
     "@shopify/eslint-plugin": "38.0.0",
     "@shopify/prettier-config": "1.1.1",
-    "@vercel/node": "1.8.2",
+    "@vercel/node": "1.15.4",
     "eslint": "7.8.1",
     "jest": "26.4.2",
     "npm-run-all": "4.1.5",
